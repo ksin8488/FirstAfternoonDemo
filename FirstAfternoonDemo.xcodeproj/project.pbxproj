@@ -54,14 +54,30 @@
 		AC37C3D11F88011000308A9D /* FirstAfternoonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AC37C3D21F88011000308A9D /* AppDelegate.swift */,
-				AC37C3D41F88011000308A9D /* ViewController.swift */,
+				AC37C3E51F8812DF00308A9D /* Controller */,
 				AC37C3D61F88011000308A9D /* Main.storyboard */,
 				AC37C3D91F88011000308A9D /* Assets.xcassets */,
 				AC37C3DB1F88011000308A9D /* LaunchScreen.storyboard */,
-				AC37C3DE1F88011000308A9D /* Info.plist */,
+				AC37C3E41F88124B00308A9D /* Settings */,
 			);
 			path = FirstAfternoonDemo;
+			sourceTree = "<group>";
+		};
+		AC37C3E41F88124B00308A9D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AC37C3DE1F88011000308A9D /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AC37C3E51F8812DF00308A9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC37C3D21F88011000308A9D /* AppDelegate.swift */,
+				AC37C3D41F88011000308A9D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstAfternoonDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstAfternoonDemo/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.FirstAfternoonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstAfternoonDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstAfternoonDemo/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.FirstAfternoonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
