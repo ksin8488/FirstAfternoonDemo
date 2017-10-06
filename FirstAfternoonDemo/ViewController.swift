@@ -14,7 +14,14 @@ class ViewController: UIViewController
     
     @IBAction func firstMethod(_ sender: UIButton)
     {
-        firstButton.backgroundColor = .green;
+        if(firstButton.backgroundColor == .orange)
+        {
+            firstButton.backgroundColor = .black
+        }
+        else
+        {
+            firstButton.backgroundColor = .orange
+        }
         
         
     }
