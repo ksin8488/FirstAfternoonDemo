@@ -12,6 +12,12 @@ class ViewController: UIViewController
 {
     @IBOutlet weak var firstButton: UIButton!
     
+    @IBAction func firstMethod(_ sender: UIButton)
+    {
+        firstButton.backgroundColor = .green;
+        
+        
+    }
     override func viewDidLoad()
     {
         super.viewDidLoad()
